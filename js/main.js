@@ -3,5 +3,5 @@ let i = 0;
 document.querySelector('button').addEventListener('click', 
 function(){
     i = 1 < colorPalette.length ? ++i : 0;
-    document.querySelector('body').style.backgroundColor = colorPalette[i];
-})
+    document.querySelector('body').style.backgroundColor = colorPalette[i]; 
+});
